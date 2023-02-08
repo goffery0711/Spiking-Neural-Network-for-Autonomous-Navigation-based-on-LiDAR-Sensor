@@ -1,0 +1,5 @@
+fcn 与 8shape 一致
+
+(最原始training时，self.d2_outer_square = 2 * math.pi * self.r1_outer * 0.25  self.r1_outer未减去0.25得到结果。最后controller又用的是减去0.25的结果)
+
+controller时,在vrep中将车的位置移动到2.6,0.5,0.15
